@@ -4,6 +4,8 @@ from setuptools import setup, find_packages
 # Get base working directory.
 base_dir = Path(__file__).resolve().parent
 
+print(base_dir)
+
 # Readme text for long description
 with open(base_dir/"README.md") as f:
     readme = f.read()
